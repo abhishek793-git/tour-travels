@@ -20,14 +20,19 @@
     <h2>Book Your Trip</h2>
 
     <!-- ✅ Formspree integration -->
-    <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="tel" name="phone" placeholder="Phone Number" required />
-      <input type="date" name="date" required />
-      <textarea name="details" placeholder="Travel Details" required></textarea>
+ <form action="https://formspree.io/f/mwkgbgnk" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="tel" name="phone" placeholder="Phone Number" required />
+  <input type="date" name="date" required />
+  <textarea name="details" placeholder="Travel Details" required></textarea>
+
+  <input type="hidden" name="_redirect" value="https://abhishek793-git.github.io/tours-travels/thank-you.html" />
+  <button type="submit">Submit</button>
+</form>
+
 
       <!-- Redirect after submission -->
-      <input type="hidden" name="_redirect" value="https://abhishek793-git.github.io/radha-rani-tours/thank-you.html" />
+      <input type="hidden" name="_redirect" value="https://abhishek793-git.github.io/tours-travels/thank-you.html" />
       <input type="hidden" name="_subject" value="New Booking Request from Website" />
 
       <button type="submit">Submit</button>
