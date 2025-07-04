@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radha Rani Tours & Travels</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Radha Rani Tours & Travels</h1>
+      <p>Kadam Kuan, Patna 800003</p>
+      <p>Mob: 8540948000, 8210489092</p>
+      <p>Email: radharanitourtravels0001@gmail.com</p>
+    </div>
+  </header>
+
+  <section class="booking-form">
+    <h2>Book Your Trip</h2>
+    
+    <!-- Replace YOUR_FORMSPREE_ENDPOINT below -->
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="date" name="date" required />
+      <textarea name="details" placeholder="Travel Details" required></textarea>
+
+      <!-- Redirect after submission -->
+      <input type="hidden" name="_redirect" value="https://abhishek793-git.github.io/radha-rani-tours/thank-you.html" />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- WhatsApp Chat Button -->
+  <a href="https://wa.me/918540948000?text=Hi%20Radha%20Rani%20Tours%2C%20I%20want%20to%20book%20a%20trip." 
+     class="whatsapp-float" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat on WhatsApp" />
+  </a>
+
+  <!-- Call Button -->
+  <a href="tel:+918540948000" class="call-button" style="position:fixed;bottom:20px;right:20px;background:#28a745;color:#fff;padding:10px 15px;border-radius:50px;text-decoration:none;font-weight:bold;">
+    Call Now
+  </a>
+
+  <footer>
+    <p>&copy; 2025 Radha Rani Tours & Travels</p>
+  </footer>
+</body>
+</html>
